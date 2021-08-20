@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(117, 113, 113);
+    font-family: sans-serif;
+}
+a , p , li , button {
+    color: white;
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 25px;
+    padding: 10px 20px;
+    letter-spacing: .2em;
+    cursor: pointer;
+    padding-top: 15px;
+    color: turquoise;
+    transition: all .3s;
+    margin-right:auto;
+}
+.logo:hover{
+    color: violet;
+}
+.nav-link li{
+    list-style: none;
+    display: inline-block;
+
+}
+.nav-link li a{
+    margin: 0 20px;
+    color: turquoise;
+    transition: all .3s;
+    
+}
+.nav-link li a:hover{
+    color: tomato;
+}
+button{
+    background-color: tomato;
+    margin-right: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
