@@ -1,9 +1,0 @@
-@font-face {
-    font-family: xyz;
-    src: url(font/Sacramento-Regular.ttf);
-}
-
-.paragraph{
-    font-family: xyz;
-    font-size:x-large;
-}
